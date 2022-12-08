@@ -22,14 +22,18 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Snapshot Release
-        run: npm run snapshot:version
-
-      - name: Snapshot Publish
-        run: npm run snapshot:publish
+      - name: Create .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          EOF
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Release snapshot
+        run: |
+          npx changeset version --snapshot snapshot
+          npx changeset publish --no-git-tag --tag snapshot
 
       - name: Git Reset
         run: git reset --hard
