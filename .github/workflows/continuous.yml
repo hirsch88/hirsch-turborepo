@@ -14,11 +14,14 @@ jobs:
         with:
           fetch-depth: '0'
 
+      - name: Pull
+        run: git pull --force --no-tags origin main:main
+
       - name: Setup Node.js 16
         uses: actions/setup-node@v3
         with:
           node-version: 16
-
+        
       - name: Install dependencies
         run: npm ci
 
