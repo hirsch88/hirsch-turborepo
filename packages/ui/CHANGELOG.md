@@ -1,5 +1,11 @@
 # hirsch-changeset-ui
 
+## 0.0.0-snapshot-20221208101646
+
+### Patch Changes
+
+- e8d0080: snapshot test
+
 ## 0.1.1
 
 ### Patch Changes
