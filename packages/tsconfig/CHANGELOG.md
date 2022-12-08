@@ -1,5 +1,7 @@
 # hirsch-changeset-tsconfig
 
+## 1.0.0-next.0
+
 ## 0.0.0
 
 ### Patch Changes
