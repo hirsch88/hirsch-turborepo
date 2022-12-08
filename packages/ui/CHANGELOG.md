@@ -1,5 +1,11 @@
 # hirsch-changeset-ui
 
+## 0.1.2
+
+### Patch Changes
+
+- f2fb82c: change label 3 time
+
 ## 0.0.0
 
 ### Patch Changes
