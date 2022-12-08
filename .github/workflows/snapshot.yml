@@ -20,7 +20,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm build
+        run: npm run build
 
       - name: Snapshot Release
         run: npm run snapshot:version
