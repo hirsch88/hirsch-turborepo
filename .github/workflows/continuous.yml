@@ -6,6 +6,22 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
+  ChangeSets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Status
+        run: npx changeset status --since-main
   Build:
     runs-on: ubuntu-latest
     steps:
