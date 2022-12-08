@@ -13,6 +13,8 @@
     "changeset": "npx changeset",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "release": "npm run build && changeset publish",
+    "snapshot:version": "changeset version --snapshot snapshot",
+    "snapshot:publish": "changeset publish --no-git-tag --tag snapshot",
     "status": "changeset status --since=main"
   },
   "devDependencies": {
