@@ -2,4 +2,4 @@
 "hirsch-changeset-ui": patch
 ---
 
-first bump
+changed label of button
