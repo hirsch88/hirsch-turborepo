@@ -12,7 +12,7 @@
     "lint": "turbo run lint",
     "changeset": "npx changeset",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "release": "changeset publish",
+    "release": "npm run build && changeset publish",
     "status": "changeset status --since=main"
   },
   "devDependencies": {
