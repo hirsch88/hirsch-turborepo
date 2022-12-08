@@ -1,6 +1,6 @@
 {
   "name": "hirsch-changeset-tsconfig",
-  "version": "0.0.0-snapshot-20221208101646",
+  "version": "0.0.0",
   "private": true,
   "files": [
     "base.json",
