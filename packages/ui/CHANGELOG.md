@@ -1,5 +1,19 @@
 # hirsch-changeset-ui
 
+## 0.2.0
+
+### Minor Changes
+
+- 0d3bc5d: i change the label of the button again today
+
+  ```html
+  <button>Bla</button>
+  ```
+
+### Patch Changes
+
+- 16db11c: adding the ! to it
+
 ## 0.1.2
 
 ### Patch Changes
