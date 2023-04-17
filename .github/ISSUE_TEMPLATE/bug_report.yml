@@ -1,9 +1,8 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+name: Bug Report 🐛
+description: Create a report to help us improve the Baloise Design System
+title: "🐛 fix(component): title"
+labels: ["🐛 Bug'"]
+assignees: ''
 body:
   - type: markdown
     attributes:
