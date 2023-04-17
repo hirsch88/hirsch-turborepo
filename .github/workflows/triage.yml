@@ -16,5 +16,5 @@ jobs:
           # to the issue
           # project-url: https://github.com/orgs/<orgName>/projects/<projectNumber>
           project-url: https://github.com/users/hirsch88/projects/3
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           labeled: "🐛 Bug"
