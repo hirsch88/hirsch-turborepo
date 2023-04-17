@@ -23,6 +23,17 @@ body:
       value: "A bug happened!"
     validations:
       required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please outline the necessary steps to replicate this problem.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
