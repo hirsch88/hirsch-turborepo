@@ -1,5 +1,11 @@
 # hirsch-changeset-ui
 
+## 0.3.0
+
+### Minor Changes
+
+- 57ea288: new label
+
 ## 0.2.0
 
 ### Minor Changes
