@@ -1,0 +1,9 @@
+openPR: true
+copyIssueLabelsToPR: true
+copyIssueAssigneeToPR: true
+branches:
+  - label: '🐛 Bug'
+    prefix: fix/
+    skip: false
+  - label: '*'
+    skip: true
