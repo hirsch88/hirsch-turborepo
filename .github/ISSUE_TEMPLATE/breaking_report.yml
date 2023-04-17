@@ -1,6 +1,6 @@
 name: 💥 Breaking Change Report
 description: Request a breaking change an existing feature
-title: "💥 breaking(component): title"
+title: ":boom: breaking(component): title"
 labels: ["💥 Breaking Change"]
 body:
   - type: markdown

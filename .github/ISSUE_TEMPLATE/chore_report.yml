@@ -1,6 +1,6 @@
 name: 🔧 Chore Task
 description: Create a report to chore a component or library 
-title: "🔧 chore(component): title"
+title: ":wrench: chore(component): title"
 labels: ["🔧 Chore"]
 body:
   - type: textarea

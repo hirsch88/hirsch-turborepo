@@ -2,6 +2,7 @@ mode: chatops
 openPR: true
 copyIssueLabelsToPR: true
 copyIssueAssigneeToPR: true
+branchName: short
 branches:
   - label: '🐛 Bug'
     prefix: fix/
