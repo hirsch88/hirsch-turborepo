@@ -46,5 +46,12 @@ jobs:
           type: now
           from_branch: main
           target_branch: released
-          message: "release: ${{ fromJson(steps.changesets.outputs.publishedPackages)[0].version }}"
+          message: ":bookmark: release: ${{ fromJson(steps.changesets.outputs.publishedPackages)[0].version }}"
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Tag release
+        if: steps.changesets.outputs.published == 'true'
+        uses: thejeff77/action-push-tag@v1.0.0
+        with:
+          tag: 'v${{ fromJson(steps.changesets.outputs.publishedPackages)[0].version }}'
+          message: '${{ fromJson(steps.changesets.outputs.publishedPackages)[0].version }}: PR #${{ github.event.pull_request.number }} ${{ github.event.pull_request.title }}'
