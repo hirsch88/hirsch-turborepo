@@ -3,7 +3,6 @@ description: Create a report to help us improve the Baloise Design System
 title: '🐛 fix(component): title'
 labels: '🐛 Bug'
 assignees: ''
-
 body:
   - type: textarea
     id: current-behavior
@@ -12,36 +11,3 @@ body:
       description: Describe in detail the issue you're having.
     validations:
       required: true
-
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected Behavior
-      description: A precise explanation of what you expected to happen.
-    validations:
-      required: true
-
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps to Reproduce
-      description: Please outline the necessary steps to replicate this problem.
-      placeholder: |
-        1.
-        2.
-        3.
-    validations:
-      required: true
-
-  - type: input
-    id: reproduction-url
-    attributes:
-      label: Code Reproduction URL
-      description: Please recreate this problem in an empty Baloise Design System starter application or CodeSandBox and share the repository link. Give our [Getting Started Guide](https://baloise-design-system.vercel.app/?path=/docs/development-getting-started--page) a try to rapidly set up a starter application.
-      placeholder: https://codesandbox.io/...
-
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: Additional Information
-      description: List any other information that is relevant to your issue. Stack traces, related issues, suggestions on how to fix, Stack Overflow links, forum links, etc.
