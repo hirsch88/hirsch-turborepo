@@ -1,5 +1,11 @@
 # hirsch-changeset-ui
 
+## 0.3.1
+
+### Patch Changes
+
+- d42cfb0: change label
+
 ## 0.3.0
 
 ### Minor Changes
