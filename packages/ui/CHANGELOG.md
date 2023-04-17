@@ -1,5 +1,11 @@
 # hirsch-changeset-ui
 
+## 0.4.0
+
+### Minor Changes
+
+- 113c4f9: asdf
+
 ## 0.3.1
 
 ### Patch Changes
