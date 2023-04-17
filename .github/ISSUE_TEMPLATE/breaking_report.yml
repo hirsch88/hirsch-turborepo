@@ -18,10 +18,9 @@ body:
     id: current-solution
     attributes:
       label: Current Solution
-      description: Describe in detail the issue you're having.
+      description: Please describe the current state and the problem with it and provide a code example like below. 
       value: |
-        Please describe the current state and the problem with it.
-        Please provide code example like below.
+        Description...
 
         ```html
         <bal-component right></bal-component>
@@ -32,10 +31,9 @@ body:
     id: proposed-solution
     attributes:
       label: Proposed Solution
-      description: What is the proposed solution?
+      description: What is the proposed solution? Please describe the solution and the advantages of it and provide a code example like below.
       value: |
-        Please describe the solution and the advantages of it.
-        Please provide code example like below.
+        Description...
 
         ```html
         <bal-component position="left"></bal-component>
@@ -48,13 +46,14 @@ body:
     id: next-steps
     attributes:
       label: Next Steps
-      description: resent breaking change in the Baloise web community
+      description: Present breaking change in the Baloise web community
       value: |
         - **Benefit** Show benefits of the change
+          - list benefits here
         - **Effort** Discuss the impact of current running applications
+          - describe the effort here
         - **Development** Discuss process of development
-    validations:
-      required: true
+          - describe how the implementation will be done
   - type: textarea
     id: additional-information
     attributes:
