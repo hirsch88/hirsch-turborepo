@@ -71,4 +71,4 @@ body:
     id: additional-information
     attributes:
       label: Additional Information
-      description: List any other information that is relevant to your issue. Stack traces, related issues, suggestions on how to fix, Stack Overflow links, forum links, etc.
+      description: Please include any additional information that may be relevant to your issue. Logs, related issues, Stack Overflow links, forum links or even a suggestions on how to fix.
