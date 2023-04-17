@@ -33,7 +33,6 @@ body:
       description: By developing this feature we need to change the interface and introduce breaking changes.
       options:
         - Yes, it has breaking changes
-        - No, there are no breaking changes
   - type: checkboxes
     id: terms
     attributes:
