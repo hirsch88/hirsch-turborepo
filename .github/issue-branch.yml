@@ -6,5 +6,23 @@ branches:
   - label: '🐛 Bug'
     prefix: fix/
     skip: false
+  - label: '✨ Feature'
+    prefix: feat/
+    skip: false  
+  - label: '💥 Breaking Change'
+    prefix: breaking/
+    skip: false  
+  - label: '♻️ Refactor'
+    prefix: refactor/
+    skip: false
+  - label: '🔧 Chore'
+    prefix: chore/
+    skip: false
+  - label: '📝 Documentation'
+    prefix: docs/
+    skip: false
+  - label: '🚀 Release'
+    prefix: release/
+    skip: false
   - label: '*'
     skip: true
