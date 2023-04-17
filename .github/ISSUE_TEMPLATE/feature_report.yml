@@ -21,6 +21,11 @@ body:
       description: Provide a use case for the problem that this feature would address.
     validations:
       required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Describe Preferred Solution
+      description: Provide a precise and succinct explanation of how you want to add this feature into the Baloise Design System.
   - type: checkboxes
     id: terms
     attributes:
