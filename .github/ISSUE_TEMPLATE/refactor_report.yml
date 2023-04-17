@@ -1,6 +1,6 @@
 name: ♻️ Refactor
 description: Create a report to refactor a component or library 
-title: "♻️ refactor(component): title"
+title: "♻️ refactor(component)"
 labels: ["♻️ Refactor"]
 body:
   - type: textarea
