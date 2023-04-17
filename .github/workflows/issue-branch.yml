@@ -11,8 +11,8 @@ jobs:
       - name: Create Issue Branch
         uses: robvanderleek/create-issue-branch@main
         with:
-          openPR: true
-          copyIssueAssigneeToPR: true
+          openPR: 'true'
+          copyIssueAssigneeToPR: 'true'
           commentMessage: 'Branch ${branchName} created for issue: ${issue.title}'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
