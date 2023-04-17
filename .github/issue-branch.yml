@@ -18,9 +18,6 @@ branches:
   - label: '🔧 Chore'
     prefix: chore/
     skip: false
-  - label: '📝 Documentation'
-    prefix: docs/
-    skip: false
   - label: '🚀 Release'
     prefix: release/
     skip: false

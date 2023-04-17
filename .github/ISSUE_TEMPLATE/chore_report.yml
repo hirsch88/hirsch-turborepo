@@ -1,17 +1,13 @@
-name: 💬 Question
-description: Usage question or discussion about the Baloise Design System
-title: "💬 question(component): title"
-labels: ["💬 Question"]
+name: 🔧 Chore Task
+description: Create a report to chore a component or library 
+title: "🔧 chore(component): title"
+labels: ["🔧 Chore"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks in advance for your feedback!
   - type: textarea
-    id: question
+    id: summary
     attributes:
-      label: Question
-      description: Please describe your question in one or two sentences.
+      label: Summary
+      description: Please describe the chore task.
     validations:
       required: true
   - type: textarea

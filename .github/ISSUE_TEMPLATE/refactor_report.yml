@@ -1,17 +1,13 @@
-name: 💬 Question
-description: Usage question or discussion about the Baloise Design System
-title: "💬 question(component): title"
-labels: ["💬 Question"]
+name: ♻️ Refactor
+description: Create a report to refactor a component or library 
+title: "♻️ refactor(component): title"
+labels: ["♻️ Refactor"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks in advance for your feedback!
   - type: textarea
-    id: question
+    id: summary
     attributes:
-      label: Question
-      description: Please describe your question in one or two sentences.
+      label: Summary
+      description: Please describe what and why the element needs to refactored.
     validations:
       required: true
   - type: textarea
