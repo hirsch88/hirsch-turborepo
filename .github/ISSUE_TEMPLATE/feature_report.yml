@@ -27,6 +27,14 @@ body:
       label: Describe Preferred Solution
       description: Provide a precise and succinct explanation of how you want to add this feature into the Baloise Design System.
   - type: checkboxes
+    id: breaking-changes
+    attributes:
+      label: Will this feature introduce breaking changes?
+      description: By developing this feature we need to change the interface and introduce breaking changes.
+      options:
+        - label: Yes, it has breaking changes
+          required: true
+  - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
