@@ -29,4 +29,4 @@
     id: additional-information
     attributes:
       label: Additional Information
-      description: Please include any additional information that may be relevant to your issue..
+      description: Please include any additional information that may be relevant to your issue.
