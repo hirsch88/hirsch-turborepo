@@ -1,9 +1,7 @@
 name: 🐛 Bug Report
 description: Create a report to help us improve the Baloise Design System
 title: "🐛 fix(component): title"
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
