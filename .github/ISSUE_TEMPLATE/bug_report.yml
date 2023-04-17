@@ -45,7 +45,8 @@ body:
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Browsers
+      description: What browsers are you seeing the problem on?
       multiple: true
       options:
         - Firefox
@@ -55,7 +56,8 @@ body:
   - type: dropdown
     id: device
     attributes:
-      label: On what device did you find the problem?
+      label: Device
+      description: On what device did you find the problem?
       multiple: true
       options:
         - Mobile

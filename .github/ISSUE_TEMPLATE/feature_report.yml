@@ -10,21 +10,21 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Please describe your request in one or two sentences.
+      label: Summary
       description: A clear and concise description of what the feature does.
     validations:
       required: true
   - type: textarea
     id: use-case
     attributes:
-      label: Explain the Use Case
+      label: Use Case
       description: Provide a use case for the problem that this feature would address.
     validations:
       required: true
   - type: textarea
     id: proposed-solution
     attributes:
-      label: Describe Preferred Solution
+      label: Preferred Solution
       description: Provide a precise and succinct explanation of how you want to add this feature into the Baloise Design System.
   - type: checkboxes
     id: breaking-changes
