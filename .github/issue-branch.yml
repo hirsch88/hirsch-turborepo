@@ -1,3 +1,4 @@
+mode: chatops
 openPR: true
 copyIssueLabelsToPR: true
 copyIssueAssigneeToPR: true
